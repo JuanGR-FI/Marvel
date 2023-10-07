@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct UrlWebsite: Codable {
+    let url: String
+    let type: String
+}

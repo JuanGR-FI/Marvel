@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct EventItem: Codable {
+    let resourceURI: String
+    let name: String
+}

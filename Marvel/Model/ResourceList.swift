@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct ResourceList<T : Codable> : Codable {
+    let available: Int
+    let collectionURI: String
+    let returned: Int
+    let items: [T]
+}

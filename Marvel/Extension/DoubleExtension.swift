@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension Double {
+    var asString : String{
+        String(self)
+    }
+}

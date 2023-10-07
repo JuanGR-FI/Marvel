@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct Character: Codable {
+    let id: Int
+    let name: String
+    let description: String
+    let modified: String
+    let resourceURI: String
+    let thumbnail: Image
+    let urls: [UrlWebsite]
+    let comics: ResourceList<ComicItem>
+    let series: ResourceList<SerieItem>
+    let stories: ResourceList<StoryItem>
+    let events: ResourceList<EventItem>
+}

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct SerieItem: Codable {
+    let resourceURI: String
+    let name: String
+}
