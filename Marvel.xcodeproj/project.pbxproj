@@ -34,6 +34,10 @@
 		A88005CB2AC8B10E008E773A /* marvel.keys in Resources */ = {isa = PBXBuildFile; fileRef = A88005CA2AC8B10E008E773A /* marvel.keys */; };
 		A88005CE2AC8B180008E773A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88005CD2AC8B180008E773A /* StringExtension.swift */; };
 		A88005D02AC8B1A3008E773A /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88005CF2AC8B1A3008E773A /* DoubleExtension.swift */; };
+		A8979D602AD48F03004EAC0A /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8979D5F2AD48F03004EAC0A /* CharacterDetailViewController.swift */; };
+		A8979D622AD49212004EAC0A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8979D612AD49212004EAC0A /* UIViewExtension.swift */; };
+		A8979D642AD49237004EAC0A /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8979D632AD49237004EAC0A /* CGColorExtension.swift */; };
+		A8979D662AD49D62004EAC0A /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8979D652AD49D62004EAC0A /* LinkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +68,10 @@
 		A88005CA2AC8B10E008E773A /* marvel.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = marvel.keys; sourceTree = "<group>"; };
 		A88005CD2AC8B180008E773A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		A88005CF2AC8B1A3008E773A /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		A8979D5F2AD48F03004EAC0A /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		A8979D612AD49212004EAC0A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A8979D632AD49237004EAC0A /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		A8979D652AD49D62004EAC0A /* LinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A8259FC52AD0F4CD001FA64D /* CharacterCell.swift */,
+				A8979D652AD49D62004EAC0A /* LinkCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -136,6 +145,7 @@
 				A88005BA2AC8A2BF008E773A /* Info.plist */,
 				A88005B22AC8A2BD008E773A /* Marvel.xcdatamodeld */,
 				A88005CA2AC8B10E008E773A /* marvel.keys */,
+				A8979D5F2AD48F03004EAC0A /* CharacterDetailViewController.swift */,
 			);
 			path = Marvel;
 			sourceTree = "<group>";
@@ -164,6 +174,8 @@
 			children = (
 				A88005CD2AC8B180008E773A /* StringExtension.swift */,
 				A88005CF2AC8B1A3008E773A /* DoubleExtension.swift */,
+				A8979D612AD49212004EAC0A /* UIViewExtension.swift */,
+				A8979D632AD49237004EAC0A /* CGColorExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -254,10 +266,13 @@
 				A8259FB52AD0CD77001FA64D /* EventItem.swift in Sources */,
 				A88005D02AC8B1A3008E773A /* DoubleExtension.swift in Sources */,
 				A8259FBB2AD0D311001FA64D /* DataResponse.swift in Sources */,
+				A8979D642AD49237004EAC0A /* CGColorExtension.swift in Sources */,
 				A88005C82AC8A911008E773A /* KeyLoader.swift in Sources */,
 				A8259FB92AD0D14C001FA64D /* APIResponse.swift in Sources */,
+				A8979D662AD49D62004EAC0A /* LinkCell.swift in Sources */,
 				A88005CE2AC8B180008E773A /* StringExtension.swift in Sources */,
 				A88005AE2AC8A2BD008E773A /* ViewController.swift in Sources */,
+				A8979D602AD48F03004EAC0A /* CharacterDetailViewController.swift in Sources */,
 				A88005AA2AC8A2BD008E773A /* AppDelegate.swift in Sources */,
 				A8259FAD2AD0C71F001FA64D /* UrlWebsite.swift in Sources */,
 				A88005B42AC8A2BD008E773A /* Marvel.xcdatamodeld in Sources */,
@@ -265,6 +280,7 @@
 				A88005AC2AC8A2BD008E773A /* SceneDelegate.swift in Sources */,
 				A8259FC32AD0E3BD001FA64D /* CharacterService.swift in Sources */,
 				A8259FB12AD0CCBE001FA64D /* ComicItem.swift in Sources */,
+				A8979D622AD49212004EAC0A /* UIViewExtension.swift in Sources */,
 				A88005C62AC8A678008E773A /* Keys.swift in Sources */,
 				A8259FAB2AD0C487001FA64D /* Image.swift in Sources */,
 				A8259FB32AD0CD10001FA64D /* SerieItem.swift in Sources */,
