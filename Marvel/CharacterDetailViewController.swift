@@ -39,11 +39,11 @@ class CharacterDetailViewController: UIViewController {
         }
         
         
-        for url in characterReceived!.urls {
+        /*for url in characterReceived!.urls {
             print("-*-*-*-*-*-*-*-*-*\n", url.type)
             print(url.url)
             
-        }
+        }*/
         
         
         

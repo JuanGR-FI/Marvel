@@ -23,8 +23,6 @@ class ViewController: UIViewController {
         characterCollectionView.dataSource = self
         characterCollectionView.delegate = self
         
-        
-        
         print("qs: ", myKeys.getQueryString())
         
         characterService.loadCharactersData(queryString: myKeys.getQueryString(limit: Constants.numberOfItemsRequested, offset: Constants.initialOffset)){
@@ -121,7 +119,7 @@ extension ViewController: UIScrollViewDelegate {
             }
         }
         else{
-            print("Don't call API...")
+            //print("Don't call API...")
         }
     }
 }
